@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>JOGO DA VELHA | BEM VINDO!</title>
+        <link rel="stylesheet" href="style-global.css" />
+        <link rel="stylesheet" href="style-index.css" />
+        <link rel="shortcut icon" href="img/iconLogo.png" type="image/x-icon" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+
+        <script src="game-bot.js" defer></script>
+    </head>
+
+    <body>
+        <main>
+            <h1>JOGO DA VELHA</h1>
+
+            <p>MODOS DE JOGO</p>
+
+            <div id="gameOptions">
+                <div id="player-vs-player">
+                    <button onclick="location.href='player-vs-player.html';">
+                        JOGADOR VS JOGADOR
+                        <img src="img/iconPlayerVsPlayer.png" alt="JOGADOR VS JOGADOR" />
+                    </button>
+                </div>
+
+                <div id="gamModes">
+                    <button>
+                        JOGADOR VS COMPUTADOR
+                        <img src="img/iconPlayerVsCom.png" alt="JOGADOR VS COMPUTADOR" />
+                    </button>
+
+                    <div id="computerLevelsOptions">
+                        <button value="easy">FÁCIL</button>
+                        <button value="medium">MÉDIO</button>
+                        <button value="hard">DIFÍCIL</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>
+                Developed By <a href="https://github.com/luuh-oliveira" target="blank">@luuh-oliveira</a> and
+                <a href="https://github.com/mateuz-dev" target="blank">@mateuz-dev</a>
+            </p>
+        </footer>
+    </body>
+</html>
