@@ -60,6 +60,14 @@ button:hover {
     pointer-events: auto;
 }
 
+button {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
 /*----------------------------------*/
 
 footer {
